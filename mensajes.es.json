@@ -1,0 +1,20 @@
+{
+    "welcome": "¿Qué es usted?\n\t0 - Administrador\n\t1 - Usuario\n\t2 - Salir\n\t\t",
+    "adminPwdRequest": "Modo administrador iniciado. Por favor, inserte su contraseña\n\t->",
+    "adminLoged": "Bienvenido, administrador",
+    "adminNotLoged": "Contraseña inválida, reseteando información",
+    "adminActions": "¿Qué desea hacer?\n\t0 - Insertar tratamiento\n\t1 - Obtener información de tratamientos\n\t2 - Actualizar información de tratamiento\n\t3 - Eliminar tratamiento\n\t4 - Salir del modo administrador\n\t\t->",
+    "get": "Los tratamientos que ofrecemos ahora mismo son:",
+    "pressAnyKey": "Presiona cualquier tecla para continuar ",
+    "get1": " con un coste de ",
+    "insertNombre": "Inserte el nombre del nuevo tratamiento: ",
+    "insertPrecio": "Inserte el precio del nuevo tratamiento: ",
+    "insertMoneda": "Inserte la moneda con la que ha especificado el precio (EUR por defecto): ",
+    "updateNombre": "Inserte el nombre del tratamiento a actualizar (no inserte nada si quiere mantener el valor actual): ",
+    "updatePrecio": "Inserte el precio actualizado (no inserte nada si quiere mantener el valor actual): ",
+    "updateMoneda": "Inserte la moneda con la que ha especificado el precio (no inserte nada si quiere mantener el valor actual): ",
+    "updateQuestion": "¿Qué tratamiento desea modificar?\n\t->",
+    "outOfRangeError": "Error fuera de rango",
+    "deleteQuestion": "¿Qué tratamiento desea eliminar?\n\t->",
+    "confirmationMessage": "¿Está seguro de que quiere continuar? S/n"
+}
