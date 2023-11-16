@@ -1,5 +1,5 @@
 {
-    "welcome": "¿Qué es usted?\n\t0 - Administrador\n\t1 - Usuario\n\t2 - Salir\n\t\t",
+    "welcome": "¿Qué es usted?\n\t0 - Administrador\n\t1 - Usuario\n\t2 - Salir\n\t\t->",
     "adminPwdRequest": "Modo administrador iniciado. Por favor, inserte su contraseña\n\t->",
     "adminLoged": "Bienvenido, administrador",
     "adminNotLoged": "Contraseña inválida, reseteando información",
