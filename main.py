@@ -2,14 +2,15 @@ import getpass
 import os
 from dentistas.administrador import login as adminLogin, routeUser
 import json
+import time
 f = open('mensajes.es.json')
 messages = json.load(f)
 adminLoginState = False
 state = 'welcome'
 
 while True:
-    useMode = int(
-        input(messages[state]))
+    userResponse = input(messages[state])
+    useMode = int(userResponse if userResponse.isnumeric() else -1)
     if useMode == 0:
         state = 'adminPwdRequest'
         pwd = getpass.getpass(messages[state])
@@ -17,6 +18,7 @@ while True:
         state = "adminLoged" if adminLoginState else "adminNotLoged"
         print(messages[state])
         if adminLoginState == False:
+            state = "welcome"
             continue
         state = "adminActions"
         routeUser(state)
@@ -28,6 +30,8 @@ while True:
     else:
         state = "errorMessage"
         print(messages[state])
+        time.sleep(5)
+        
     state = 'welcome'
     # break
 
