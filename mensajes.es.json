@@ -16,5 +16,6 @@
     "updateQuestion": "¿Qué tratamiento desea modificar?\n\t->",
     "outOfRangeError": "Error fuera de rango",
     "deleteQuestion": "¿Qué tratamiento desea eliminar?\n\t->",
-    "confirmationMessage": "¿Está seguro de que quiere continuar? S/n"
+    "confirmationMessage": "¿Está seguro de que quiere continuar? S/n",
+    "errorMessage": "¡La opción escogida no es correcta!"
 }
